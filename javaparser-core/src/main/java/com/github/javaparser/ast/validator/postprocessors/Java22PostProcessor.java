@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2011, 2013-2024 The JavaParser Team.
+ * Copyright (C) 2007-2010 Júlio Vilmar Gesser.
+ * Copyright (C) 2011, 2013-2023 The JavaParser Team.
  *
  * This file is part of JavaParser.
  *
@@ -20,7 +21,7 @@
 package com.github.javaparser.ast.validator.postprocessors;
 
 /**
- * Processes the generic AST into a Java 18 AST and validates it.
+ * Processes the generic AST into a Java 22 AST and validates it.
  */
-public class Java18PostProcessor extends Java17PostProcessor {
+public class Java22PostProcessor extends Java21PostProcessor {
 }

@@ -26,6 +26,8 @@ package com.github.javaparser.ast.validator.language_level_validations;
  */
 public class Java20Validator extends Java19Validator {
 
+    // Not implemented yet
+
     public Java20Validator() {
         super();
     }
