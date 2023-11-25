@@ -145,12 +145,14 @@
     </contributors>
 
     <properties>
+        <!-- Reproducible Builds (auto updates to new timestamp upon release and all builds will be tied to this value) -->
+        <project.build.outputTimestamp>2023-12-03T00:00:00Z</project.build.outputTimestamp>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+
         <byte-buddy.version>1.14.17</byte-buddy.version>
         <argLine>-javaagent:'${settings.localRepository}/net/bytebuddy/byte-buddy-agent/${byte-buddy.version}/byte-buddy-agent-${byte-buddy.version}.jar'</argLine>
-        <build.timestamp>2024-04-04T00:00:00Z</build.timestamp>
-        <!-- Maven Plugins -->
     </properties>
 
     <scm>
